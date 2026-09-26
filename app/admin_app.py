@@ -9,10 +9,10 @@ from config.settings import DATA_DIR
 from src.risk_engine import RiskEngine
 from src.utils import load_transactions, load_scam_cases
 
-st.set_page_config(page_title="银发守护·后台", page_icon="⚙️", layout="wide")
+st.set_page_config(page_title="工银e伴安·后台", page_icon="⚙️", layout="wide")
 
-st.title("⚙️ 银发守护 · 后台管理端")
-st.caption("养老资金安全智能守护平台 · 运营管理")
+st.title("⚙️工银e伴安 · 后台管理端")
+st.caption("银发金融安全协同平台｜风险监测与协同处置")
 
 # 加载引擎
 @st.cache_resource

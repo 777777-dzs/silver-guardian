@@ -12,7 +12,7 @@ from src.utils import load_transactions, load_scam_cases
 st.set_page_config(page_title="银发守护·子女端", page_icon="👨‍👩‍👧", layout="wide")
 
 st.title("👨‍👩‍👧 银发守护 · 子女端")
-st.caption("随时了解家人的资金安全状态")
+st.caption("银发金融安全协同平台｜亲情风险预警提醒")
 
 # 加载引擎
 @st.cache_resource
